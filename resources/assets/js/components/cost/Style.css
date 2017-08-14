@@ -1,0 +1,33 @@
+.list {        
+    width: 100%;    
+}
+.Label {
+    width: 20%;
+    text-align: right;
+}
+.value {
+    width: 50%;
+    margin-left: 30px;    
+}
+.element {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width: 600px){
+    .list {
+        padding-left: 25px;
+    }
+    .Label {
+        width: 100%;
+        text-align: left;
+    }
+    .value {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .element {
+        display: block;
+    }
+}
