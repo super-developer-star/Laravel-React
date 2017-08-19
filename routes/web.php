@@ -14,10 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/choose-package', function(){
-    return view('welcome');
-});
-Route::get('/total-cost', function(){
-    return view('welcome');
-});
+// Route::get('/choose-package', function(){
+//     return view('welcome');
+// });
+// Route::get('/total-cost', function(){
+//     return view('welcome');
+// });
 

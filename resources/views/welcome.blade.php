@@ -66,6 +66,6 @@
     </head>
     <body>
         <div id="root"></div>
-        <script type="text/javascript" src="{{url('')}}/js/app.js?v={{ rand(1000, 50000000)}}"></script>
+        <script type="text/javascript" src="{{url('')}}/js/bundle.js"></script>
     </body>
 </html>
